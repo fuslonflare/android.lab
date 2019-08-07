@@ -1,0 +1,11 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_barcode_scan">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="csd.gisc.carcheckerlab.BarcodeActivity"
+            android:targetPackage="csd.gisc.carcheckerlab" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "828593712640",
+    "firebase_url": "https://gisproject-76aa5.firebaseio.com",
+    "project_id": "gisproject-76aa5",
+    "storage_bucket": "gisproject-76aa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828593712640:android:3f6d26c7c1ae5986",
+        "android_client_info": {
+          "package_name": "csd.gisc.carchecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828593712640-j0nfn41uqvvd03cpj9an266ebfj26no7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "csd.gisc.carchecker",
+            "certificate_hash": "d5fd18044e624b8f8a85004fc5f2536b9491fdc2"
+          }
+        },
+        {
+          "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzYwyyT9DsfC5ZT9OLOeCz6JH3NWXVG2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828593712640:android:8f1465a4178824a9",
+        "android_client_info": {
+          "package_name": "csd.gisc.carcheckerlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828593712640-emisblr68bjsa942lk878adj7pfskpkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "csd.gisc.carcheckerlab",
+            "certificate_hash": "d5fd18044e624b8f8a85004fc5f2536b9491fdc2"
+          }
+        },
+        {
+          "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzYwyyT9DsfC5ZT9OLOeCz6JH3NWXVG2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828593712640:android:a35a8f9b984d1782",
+        "android_client_info": {
+          "package_name": "csd.gisc.issuetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828593712640-sfca9l3st1or1m91atua3g5g6m9bmb2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "csd.gisc.issuetracker",
+            "certificate_hash": "d5fd18044e624b8f8a85004fc5f2536b9491fdc2"
+          }
+        },
+        {
+          "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzYwyyT9DsfC5ZT9OLOeCz6JH3NWXVG2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

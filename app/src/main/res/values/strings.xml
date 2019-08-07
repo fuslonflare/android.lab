@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Car Checker Lab</string>
+
+    <string name="desc_barcode_activity_ml_kit">Scan Barcode</string>
+    <string name="desc_screenshot_activity">Screen Capture</string>
+    <string name="desc_grid_layout_activity">Grid Layout</string>
+    <string name="desc_custom_activity_on_crash">Custom Activity On Crash</string>
+
+    <string name="scan_shortcut_short_label">Scan</string>
+    <string name="scan_shortcut_long_label">Scan Barcode</string>
+    <string name="scan_disabled_message">Disabled Scan</string>
+</resources>
