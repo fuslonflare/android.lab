@@ -15,14 +15,13 @@ public class ZBarActivity extends AppCompatActivity implements ZBarScannerView.R
     private static final int CAMERA_ID = Camera.CameraInfo.CAMERA_FACING_BACK;
 
     private ZBarScannerView zBarScannerView;
-    private FrameLayout contentFrame;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zbar);
 
-        contentFrame = findViewById(R.id.content_frame);
+        FrameLayout contentFrame = findViewById(R.id.content_frame);
         zBarScannerView = new ZBarScannerView(this);
         contentFrame.addView(zBarScannerView);
     }

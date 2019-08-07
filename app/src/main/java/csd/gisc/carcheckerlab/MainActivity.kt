@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         adapter.setDescriptionIds(descriptionIds)
         listView.adapter = adapter
-        listView.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
+        listView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             var clicked = classes[position]
             startActivity(Intent(this, clicked))
         }
