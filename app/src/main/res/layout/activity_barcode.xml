@@ -2,19 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
     android:orientation="vertical"
     android:padding="16dp">
-
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/edit_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Serial No" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/scan_button_zbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Scan" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:text="Output is shown here." />
 
 </LinearLayout>

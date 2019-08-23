@@ -5,11 +5,12 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
-import androidx.appcompat.widget.AppCompatEditText;
+
 import android.view.View;
 import android.widget.Toast;
 
@@ -18,7 +19,7 @@ public class BarcodeActivity extends AppCompatActivity implements View.OnClickLi
     private static final int CAMERA_PERMISSION_REQUEST_CODE = 0;
     private static final int BARCODE_REQUEST_CODE = 1;
 
-    private AppCompatEditText editText;
+    private AppCompatTextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class BarcodeActivity extends AppCompatActivity implements View.OnClickLi
         AppCompatButton scanWithZBarButton = findViewById(R.id.scan_button_zbar);
         scanWithZBarButton.setOnClickListener(this);
 
-        editText = findViewById(R.id.edit_text);
+        textView = findViewById(R.id.text_view);
     }
 
     private void checkCameraPermission() {
@@ -66,7 +67,7 @@ public class BarcodeActivity extends AppCompatActivity implements View.OnClickLi
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == BARCODE_REQUEST_CODE) {
             if (resultCode == RESULT_OK) {
-                editText.setText(data.getStringExtra("result"));
+                textView.setText(data.getStringExtra("result"));
             }
         }
     }
