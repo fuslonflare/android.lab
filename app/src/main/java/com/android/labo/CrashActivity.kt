@@ -1,4 +1,4 @@
-package csd.gisc.carcheckerlab
+package com.android.labo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

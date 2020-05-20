@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:828593712640:android:d0417da0d0b75a540fb2e5",
+        "android_client_info": {
+          "package_name": "com.android.labo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828593712640-jvm5n6143n7vr28askurllhs9trkj4i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.labo",
+            "certificate_hash": "b3ea2257f50fbeca8922087a2fc679ea2cc115bf"
+          }
+        },
+        {
+          "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkfosiY6Jc-B8lejxJ8WRCGpgE6oUhpYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:828593712640:android:3f6d26c7c1ae5986",
         "android_client_info": {
           "package_name": "csd.gisc.carchecker"
@@ -29,68 +66,17 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDzYwyyT9DsfC5ZT9OLOeCz6JH3NWXVG2A"
+          "current_key": "AIzaSyAkfosiY6Jc-B8lejxJ8WRCGpgE6oUhpYw"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:828593712640:android:8f1465a4178824a9",
-        "android_client_info": {
-          "package_name": "csd.gisc.carcheckerlab"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "828593712640-emisblr68bjsa942lk878adj7pfskpkr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "csd.gisc.carcheckerlab",
-            "certificate_hash": "d5fd18044e624b8f8a85004fc5f2536b9491fdc2"
-          }
-        },
-        {
-          "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDzYwyyT9DsfC5ZT9OLOeCz6JH3NWXVG2A"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     },
@@ -117,24 +103,17 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDzYwyyT9DsfC5ZT9OLOeCz6JH3NWXVG2A"
+          "current_key": "AIzaSyAkfosiY6Jc-B8lejxJ8WRCGpgE6oUhpYw"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "828593712640-2snq38858quc3q36sma8k1bp38c2m6ip.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

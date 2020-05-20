@@ -1,4 +1,4 @@
-package csd.gisc.ywc16;
+package com.android.ywc16;
 
 public class SampleCode {
 

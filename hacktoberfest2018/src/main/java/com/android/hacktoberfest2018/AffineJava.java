@@ -1,4 +1,4 @@
-package csd.gisc.hacktoberfest2018;
+package com.android.hacktoberfest2018;
 
 import java.util.Scanner;
 
